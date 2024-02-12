@@ -51,7 +51,7 @@ body {
     background-color: azure;
     border: 4px solid white;
     border-radius: 10px;
-    font-size: 152px;
+    font-size: 130px;
     margin-right: 2% ;
     margin-left: 2% ;
     margin-bottom: 5% ;
@@ -80,13 +80,10 @@ body {
 
 /* small smartphones */
 @media only screen and (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
 
     .note {
-        font-size: 46px;
-        min-height: 50%;
+        font-size: 42px;
+        min-height: 60%;
 
     }
 
@@ -99,12 +96,9 @@ body {
 
 /* smartphones and small tablets */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
 
     .note {
-        font-size: 60px;
+        font-size: 56px;
         min-height: 50%;
 
     }
@@ -118,13 +112,10 @@ body {
 
 /* tablets */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    body {
-        font-size: 20px;
-    }
 
     .note {
-        font-size: 96px;
-        min-height: 50%;
+        font-size: 72px;
+        min-height: 60%;
     }
 
     .techs {
